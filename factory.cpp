@@ -33,5 +33,5 @@ Base* Factory::parse(char** input, int length) {
         }   
     }  
     return root;
-   
+
 }
