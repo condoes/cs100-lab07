@@ -7,13 +7,10 @@
 #include "lab-04---composite-pattern-cdo032-galva041-lab4/op.hpp"
 #include "lab-04---composite-pattern-cdo032-galva041-lab4/pow.hpp"
 #include "lab-04---composite-pattern-cdo032-galva041-lab4/base.hpp"
+#include "lab-04---composite-pattern-cdo032-galva041-lab4/Div.hpp"
 
 
 class Factory {
-    private:
-    std::vector<char*> operands;
-    std::vector<char*> operations;
-
     public:
     Base* parse(char** input, int length);
 };
