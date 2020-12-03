@@ -51,7 +51,7 @@ TEST(AddTest, AddLargNums) {
     EXPECT_EQ(temp->evaluate(), 65);
 }
 
-TEST(AddTest, AddNull) {
+TEST(OpTest, OpNull) {
     char * testVal[1];testVal[0] = "./test";
     
     Factory * f = new Factory();
